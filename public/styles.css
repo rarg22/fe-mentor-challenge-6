@@ -1,0 +1,120 @@
+
+:root {
+    --primary-white-color: white;
+    --primary-cyan-color: hsl(179, 62%, 43%);
+    --secondary-cyan-color: hsl(179, 50%, 49%);
+    --primary-yellow-color: hsl(71, 73%, 54%);
+    --primary-light-gray-color: hsl(204, 43%, 93%);
+    --primary-dark-gray-color: hsl(218, 22%, 67%);
+
+    --main-font-family: 'Karla', sans-serif;
+}
+
+html {
+    font-size: 16px;
+    font-family: var(--main-font-family);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: var(--primary-dark-gray-color);
+}
+
+.main_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro, .subscription, .why_us {
+    height: 300px;
+    width: 375px;
+    padding: 1rem 2rem;
+}
+
+.intro {
+    background: var(--primary-white-color);
+}
+
+.intro > h1{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--primary-cyan-color);
+}
+
+.intro > h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-yellow-color);
+}
+
+.intro > p{
+    line-height: 2rem;
+    font-weight: 700;
+    color: var(--primary-dark-gray-color);
+}
+
+.subscription {
+    color: var(--primary-light-gray-color);
+    background:var(--primary-cyan-color);
+}
+
+.subscription > h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.subscription > h2 {
+    font-size: 3rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.subscription > h2 > span{
+    font-size: 1.2rem;
+    color: var(--primary-light-gray-color);
+}
+
+
+.subscription > p {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.subscription > button{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-white-color);
+    background: var(--primary-yellow-color);
+    border-style: none;
+    border-radius: 8px;
+    height: 4rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.why_us {
+    color: var(--primary-light-gray-color);
+    background:var(--secondary-cyan-color);
+}
+
+
+
+.why_us > ul {
+    list-style: none;
+    padding: 0px;
+}
+
+
+.why_us > ul > li {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+@media all and (min-width: 1440px) {
+    
+}
+
+
+
